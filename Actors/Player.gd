@@ -13,7 +13,7 @@ func _physics_process(delta):
 	
 	# acceleration
 	if direction != Vector2.ZERO:
-		velocity += direction * acceleration * delta
+		velocity = velocity.move_toward(direction * max_speed, acceleration)
 		
 		# limit speed to max_speed
 		if velocity.x > max_speed or velocity.x < max_speed * -1:
