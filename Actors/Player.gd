@@ -1,7 +1,7 @@
 extends Actor
 
-export var acceleration = 300
-export var friction = 2000
+export var acceleration = 10
+export var friction = 1000
 
 func _physics_process(delta):
 	var direction := Vector2(

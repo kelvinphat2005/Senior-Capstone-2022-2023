@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 class_name Actor
 
-export var max_speed := 500
+export var max_speed := 120
 
 var velocity := Vector2.ZERO
 
