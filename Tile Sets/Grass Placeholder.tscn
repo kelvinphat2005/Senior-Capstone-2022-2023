@@ -29,8 +29,8 @@ resource_local_to_scene = true
 0/z_index = 0
 
 [node name="Grass" type="TileMap"]
+light_mask = 4
 tile_set = SubResource( 1 )
 cell_size = Vector2( 16, 16 )
 cell_clip_uv = true
 format = 1
-tile_data = PoolIntArray( 0, 0, 0 )
